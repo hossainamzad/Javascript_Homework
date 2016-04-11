@@ -7,6 +7,18 @@ console.log(x)
 alert("Print it")
 //comments are for keeping things organized.
 //data types:
-string: ("Hello");
-numbers: 99; 
+//string: are words, numbers,booleans
 
+("Hello");
+numbers: 99; // 
+< > = === !== true, false are booleans
+undefined ()// an empty string is for undefined and meant to be a placeholder.
+
+Array: ["Sam","Kim","Ron"];
+// index always starts at 0. For instance, the index for kim is 1.
+// to declare an Array, we need something which is called variable.
+var names["Sam","Kim","Ron"];
+to access an item in the array:
+//we do :
+console.log [1];
+ 
