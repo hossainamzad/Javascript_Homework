@@ -9,19 +9,19 @@ alert("Print it")
 //data types:
 //string: are words, numbers,booleans
 
-("Hello");
+//("Hello");
 numbers: 99; // 
 // thses are logical operstors for boolean expressions:
-< > = === !== true, false are booleans
-undefined ()// an empty string is for undefined and meant to be a placeholder.
+//< > = === !== true, false are booleans
+//undefined ()// an empty string is for undefined and meant to be a placeholder.
 
 Array: ["Sam","Kim","Ron"];
 // index always starts at 0. For instance, the index for kim is 1.
 // to declare an Array, we need something which is called variable.
-var names["Sam","Kim","Ron"];
-to access an item in the array:
+//var names["Sam","Kim","Ron"];
+//to access an item in the array:
 //we do :
-console.log [1];
+console.log (1);
  
  // i am creating global and local variables and the scopes where they live:
  var myFavorite = {name: "Rick", background: "Police Officer"};
