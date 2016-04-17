@@ -1,19 +1,75 @@
-alert("Hello World!");
+// definig variables:
+var cat = "Hello World";
+
 // Variables are
 // assigning value to a character.
 x = 10
 console.log(x)
 //it shoud print 10 on the acreen.
-alert("Print it")
-//comments are for keeping things organized.
-//data types:
-//string: are words, numbers,booleans
 
-//("Hello");
-numbers: 99; // 
+// Basic Value Types:
+
+//Numbers : 95; 
+// Strings : ("Hello World!");
+// Booleans: True. False
+// Objects: 
+// Undefined: NO vale
+// Null: No vale 
+
+// 
 // thses are logical operstors for boolean expressions:
-//< > = === !== true, false are booleans
+<, >, ===, !== conditional operators.
+true, false are booleans.
 //undefined ()// an empty string is for undefined and meant to be a placeholder.
+
+// logical operators:
+	&&,||,!	
+
+	// Strings: a series of characters in (" "); for instance, ("Hello");
+Loops: 
+for Loop 
+for (declare vars; condition; count){
+	//run code
+}	
+
+example: for (var x = 0; x<10; x++){
+	console.log (x);
+}
+
+while loop:
+var counter =0;
+while (condition){
+
+}
+
+// Functions:
+function cat (){
+	console.log ("Print this.");
+}
+cat ();
+cat ("Meoq");
+// we call a function by its name followed by ();
+// "return" will return value to a new line and stop execution of code.
+function cat (){
+	console.log ("Print this.");
+}
+cat ();
+
+function cat (a,b){
+	console.log (a);
+	console.log (b);
+	console.log ("you have entered "  +a+" "+b);
+	console.log (b+a);
+}
+cat ("winter", "summer");
+
+// if/else if/else statements
+var x = "NYCDA";
+if (x == 0) {
+	console.log ("Plese type it again");
+} else {
+	console.log ("Right");
+}
 
 Array: ["Sam","Kim","Ron"];
 // index always starts at 0. For instance, the index for kim is 1.
@@ -38,4 +94,5 @@ console.log (1);
      // if the email is blank, return the user a value "Invalid" an dthen ask them again to put in a valid inut and keep doing it until a valid enail is provided.
      //the form shoud have two buttons in it: one for Email and the other one is for password.
        //allow the users to enter any combination of nubers and letters they want to type in for password. And, the valid email shoud have a @ sign at the end of the email.
+console.log ("This line should appear on the console.");
 
