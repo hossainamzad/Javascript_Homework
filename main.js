@@ -37,9 +37,10 @@ example: for (var x = 0; x<10; x++){
 }
 
 while loop:
-var counter =0;
-while (condition){
-
+x = 7
+while (x<=10){
+	console.log ("i am "+x);
+	x++;
 }
 
 // Functions:
@@ -47,7 +48,7 @@ function cat (){
 	console.log ("Print this.");
 }
 cat ();
-cat ("Meoq");
+cat ("Meow");
 // we call a function by its name followed by ();
 // "return" will return value to a new line and stop execution of code.
 function cat (){
@@ -70,14 +71,33 @@ if (x == 0) {
 } else {
 	console.log ("Right");
 }
+var x = 5;
+if (x < 10) {
+	console.log ("Plese type it again beause it is less than 10.");
+} else {
+	console.log ("You typed " + x + ",and it is greater than 10.");
+}
+var x = 20;
+if (x < 10) {
+	console.log ("Plese type it again beause it is less than 10.");
+} else {
+	console.log ("You typed " + x + ",and it is greater than 10.");
+}
+// Multidimentional Array:
 
-Array: ["Sam","Kim","Ron"];
+var hale = ["Sam","Kim","Ron"];
+var dale = ["Mac", "Windows","Toshiba"];
+var i_use_this = [hale,dale];
+console.log (i_use_this[1] [0]);
+console.log (i_use_this[1] [2]);
+
+people = ["Sam","Kim","Ron"];
 // index always starts at 0. For instance, the index for kim is 1.
 // to declare an Array, we need something which is called variable.
 //var names["Sam","Kim","Ron"];
 //to access an item in the array:
 //we do :
-console.log (1);
+console.log (people[1]);
  
  // i am creating global and local variables and the scopes where they live:
  var myFavorite = {name: "Rick", background: "Police Officer"};
@@ -95,4 +115,12 @@ console.log (1);
      //the form shoud have two buttons in it: one for Email and the other one is for password.
        //allow the users to enter any combination of nubers and letters they want to type in for password. And, the valid email shoud have a @ sign at the end of the email.
 console.log ("This line should appear on the console.");
+
+var randomNum = 10; 
+var suddenNum = 20;
+console.log (randomNum + suddenNum);
+
+var randomNum = "Today"; 
+var suddenNum = "Sunday";
+console.log (randomNum +" is "+ suddenNum);
 
